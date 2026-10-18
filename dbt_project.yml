@@ -1,0 +1,8 @@
+name: dlp6523_ac11
+version: '1.0.0'
+config-version: 2
+profile: default
+model-paths: [models]
+models:
+  dlp6523_ac11:
+    +materialized: table

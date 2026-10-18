@@ -1,0 +1,12 @@
+default:
+  target: euno_test
+  outputs:
+    euno_test:
+      type: snowflake
+      account: ZWFKGSY-BDB54493
+      user: DEXTER
+      role: DEXTER_ROLE
+      database: TEST_LAB_JAFFLE_SHOP
+      warehouse: CORE
+      schema: DLP6523_AC11
+      threads: 1
